@@ -4,7 +4,6 @@ import 'react-multi-carousel/lib/styles.css';
 import Buss from '../assets/presImg.png'
 import First from '../assets/img1.jpeg'
 import Second from '../assets/img2.jpeg'
-import Third from '../assets/img3.jpeg'
 
 const responsive = {
   desktop: {

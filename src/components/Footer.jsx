@@ -1,8 +1,4 @@
 import React from 'react';
-import {
-
-  AiOutlineHeatMap,
-} from 'react-icons/ai';
 
 const Footer = () => {
   return (
