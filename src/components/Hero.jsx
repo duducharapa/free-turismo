@@ -10,7 +10,7 @@
 
             <p className='md:text-lg text-2xl'>Somos a <b>Free Turismo</b>, uma empresa especializada em transporte.</p>
             <p className='md:text-lg text-2xl'><b>Você escolhe</b> o serviço, nós <b>garantimos a qualidade.</b></p>
-            <img className='h-[50%] mx-auto mt-[0.5rem] mb-[2rem] ' src={Buss} alt="/"/>
+            <img className='object-contain h-[50%] mx-auto mt-[0.5rem] mb-[2rem] ' src={Buss} alt="/"/>
 
             <button className='bg-[#212121] text-xl text-white w-[300px] rounded-md font-medium my-6 mx-auto py-3 '>Conheça nossos serviços</button>
         </div>

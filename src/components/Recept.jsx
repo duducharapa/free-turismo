@@ -1,10 +1,9 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Buss from '../assets/presImg.png'
+import Buss from '../assets/img4.jpeg';
 import First from '../assets/img1.jpeg'
 import Second from '../assets/img2.jpeg'
-import Third from '../assets/img3.jpeg'
 
 const responsive = {
   desktop: {
@@ -25,7 +24,7 @@ const responsive = {
 };
 const Recept = () => {
   return (
-    <div className="text-white h-screen mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
+    <div className="text-white md:h-[90vh] h-[70vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
       <div className="px-[5%] w-screen text-right">
         <h1 className="font-bold py-5 text-4xl">Receptivo em aeroportos</h1>
         <p className="text-[#212121] text-1xl">Que tal garantir <b>conforto</b> e <b>segurança</b> após as suas viagens?</p>

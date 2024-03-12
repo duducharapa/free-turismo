@@ -18,6 +18,7 @@ function App() {
       <WppButton></WppButton>
       <Footer></Footer>
     </div>
+
   );
 }
 
