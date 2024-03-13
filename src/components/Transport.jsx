@@ -29,9 +29,8 @@ const Transport = () => {
     <div className="text-white h-[120vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
       <div className="py-[5%] px-[5%] w-screen text-left">
         <h1 className="font-bold py-5 text-4xl">Transporte/translado</h1>
-        <p className="text-[#212121] text-1xl">Que tal garantir <b>conforto</b> e <b>segurança</b> em suas viagens?</p>
-        <p className="text-[#212121] text-1xl"><b>motoristas capacitados</b>, oferecendo <b>o melhor serviço para você.</b></p>
-        <p className="text-[#212121] text-1xl"> Alguns dos nossos veículos disponíveis são:</p>
+        <p className="text-[#212121] text-1xl">O <strong>serviço perfeito</strong> para quem precisa de <strong>rotas planejadas</strong>, seja com um ou mais pontos.</p>
+        <p className="text-[#212121] text-1xl">Você decide aonde ir, e a Free Turismo te ajuda nisso!</p>
       </div>
       <Carousel className="w-[100%] my-10"
         swipeable={false}
