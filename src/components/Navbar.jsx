@@ -7,23 +7,44 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav);
     };
+    const goServices = () => {
+        window.scrollTo({
+            top:(window.innerHeight + window.innerHeight/3),
+            behavior:'smooth'
+        })
+        if(window.innerWidth < 600){
+             handleNav()
+
+        }
+    };
+    const goContact = () => {
+         
+        window.scrollTo({
+            top:window.innerHeight * 10,
+            behavior:"smooth"
+        })
+        if(window.innerWidth < 600){
+             handleNav()
+
+        }
+    };
 
     return (
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
             <h1 className=' text-3xl font-bold text-[#00df9a]'>Logo.</h1>
             <ul className='hidden md:flex'>
-                <li className='p-4 font-semibold text-2xl'>Sobre nós</li>
-                <li className='p-4 font-semibold text-2xl'>Serviços</li>
-                <li className='p-4 font-semibold text-2xl'>Contato</li>
+                <li  className='p-4 font-semibold text-2xl'>Sobre nós</li>
+                <li onClick={goServices}className='p-4 font-semibold text-2xl'>Serviços</li>
+                <li onClick={goContact} className='p-4 font-semibold text-2xl'>Contato</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
             <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <h1 className='w-full text-3xl font-bold text-[#000000] m-4'>Logo.</h1>
-                <li className='p-5 border-b border-gray-600'>Sobre nós</li>
-                <li className='p-4 border-b border-gray-600'>Serviços</li>
-                <li className='p-4'>Contato</li>
+                <li  className='p-5 border-b border-gray-600'>Sobre nós</li>
+                <li onClick={goServices}className='p-4 border-b border-gray-600'>Serviços</li>
+                <li onClick={goContact} className='p-4'>Contato</li>
             </ul>
         </div>
     );
