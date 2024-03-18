@@ -28,12 +28,19 @@ const Transport = () => {
   return (
     <div className="text-white md:h-[100vh] h-[110vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
       <div className=" px-[5%] w-screen text-left">
-        <h1 className="font-bold py-5 md:text-4xl text-3xl">Transporte/translado</h1>
+        <div className="flex flex-row items-center font-bold py-5 md:text-4xl text-3xl">
+          <i class="fa fa-bus icon-black" aria-hidden="true"></i>
+          <h1 className="pl-4">
+            Transporte/translado
+          </h1>
+        </div>
         <div className="py-[1%]">
-          <p className="text-[#212121] text-1xl">Que tal garantir 
-          <span className="font-bold">conforto</span> e <b>segurança</b> em suas viagens?</p>
-          <p className="text-[#212121] text-1xl"><b>motoristas capacitados</b>, oferecendo <b>o melhor serviço para você.</b></p>
-          <p className="text-[#212121] text-1xl"> Alguns dos nossos veículos disponíveis são:</p>
+          <p className="text-[#212121] text-1xl">
+            O <strong>serviço perfeito</strong> para quem precisa de <strong>rotas planejadas</strong>, seja ela com<br></br>
+          </p>
+          <p className="text-[#212121] text-1xl">
+          <strong>uma ou mais paradas.</strong>
+          </p>
         </div>
       </div>
 

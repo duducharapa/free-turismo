@@ -28,7 +28,11 @@ const Rent = () => {
     <div className="text-white md:h-[130vh] sm:h-[105vh] h-[100vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
       <h3 className=" py-20 font-bold text-5xl">Nossos Serviços</h3>
       <div className="px-[5%] w-screen text-left">
-        <h1 className="font-bold py-5 text-4xl">Aluguel de veículos</h1>
+        <div className="flex flex-row items-center font-bold py-5 text-4xl"><i class="fa fa-car icon-black" aria-hidden="true"></i>
+          <h1 className="pl-4">
+            Aluguel de veículos
+          </h1>
+        </div>
         <div className="py-[1%]">
           <p className="text-[#212121] text-1xl">Temos uma <b>frota variada</b> à sua disposição para todas as necessidades e</p>
           <p className="text-[#212121] text-1xl"><b>motoristas capacitados</b>, oferecendo <b>o melhor serviço para você.</b></p>
@@ -55,7 +59,7 @@ const Rent = () => {
         <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Second} alt="/" />
         <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={First} alt="/" />
         <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Third} alt="/" />
-        
+
       </Carousel>
     </div>
   )

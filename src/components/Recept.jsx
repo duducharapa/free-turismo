@@ -26,13 +26,18 @@ const Recept = () => {
   return (
     <div className="text-white md:h-[90vh] sm:h-[105vh] h-[100vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
       <div className="px-[5%] w-screen text-right">
-        <h1 className="font-bold py-5 text-4xl">Receptivo em aeroportos</h1>
+        <div className=" flex flex-row justify-end items-center font-bold py-5 text-4xl">
+          <i class="fa fa-plane icon-black" aria-hidden="true"></i>
+          <h1 className="pl-4">
+            Receptivo em aeroportos
+          </h1>
+        </div>
         <div className="py-[1%]">
 
-        <p className="text-[#212121] text-1xl">Que tal garantir <b>conforto</b> e <b>segurança</b> após as suas viagens?</p>
-        <p className="text-[#212121] text-1xl">A Free Turismo disponibiliza um serviço de recepção em aeroportos de</p>
-        <p className="text-[#212121] text-1xl"> forma exclusiva e <b>de acordo com a sua necessidade.</b></p>
-      </div>
+          <p className="text-[#212121] text-1xl">Que tal garantir <b>conforto</b> e <b>segurança</b> após as suas viagens?</p>
+          <p className="text-[#212121] text-1xl">A Free Turismo disponibiliza um serviço de recepção em aeroportos de</p>
+          <p className="text-[#212121] text-1xl"> forma exclusiva e <b>de acordo com a sua necessidade.</b></p>
+        </div>
       </div>
       <Carousel className="w-[100%] my-10"
         swipeable={false}
