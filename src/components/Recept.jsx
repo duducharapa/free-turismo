@@ -9,17 +9,17 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 2,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 2 
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 2,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 2 
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
-    slidesToSlide: 1 // optional, default to 1.
+    slidesToSlide: 1 
   }
 };
 const Recept = () => {
@@ -40,11 +40,11 @@ const Recept = () => {
         </div>
       </div>
       <Carousel className="w-[100%] my-10"
-        swipeable={false}
+        swipeable={true}
         draggable={false}
         showDots={true}
         responsive={responsive}
-        ssr={true} // means to render carousel on server-side.
+        ssr={true} 
         infinite={true}
         autoPlaySpeed={1000}
         keyBoardControl={true}
@@ -56,9 +56,9 @@ const Recept = () => {
         dotListClass="custom-dot-list-style"
       // itemClass="carousel-item-padding-40-px"
       >
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Buss} alt="/" />
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={First} alt="/" />
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Second} alt="/" />
+        <img className='h-[100%] max-w-[80%] object-contain rounded-md mx-auto' src={Buss} alt="/" />
+        <img className='h-[100%] max-w-[80%] object-contain rounded-md mx-auto' src={First} alt="/" />
+        <img className='h-[100%] max-w-[80%] object-contain rounded-md mx-auto' src={Second} alt="/" />
 
       </Carousel>
     </div>

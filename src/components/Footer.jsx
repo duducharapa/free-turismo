@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div className=" flex flex-col py-20">
         <p className="text-2xl font-bold  flex flex-row items-center justify-center"><span class="material-symbols-outlined">location_on</span> Local</p>
-        <p className='text-2xl font-light'> Rua Odete matos Alencar, 2451, Bairro Lagoa seca, Juazeiro do Norte - CE</p>
+        <p className='text-2xl font-light'> Rua Odete Matos Alencar, 2451, Bairro Lagoa Seca, Juazeiro do Norte - CE</p>
       </div>
       <p className='text-2xl'>Free Turismo © - Todos os direitos reservados</p>
     </div>

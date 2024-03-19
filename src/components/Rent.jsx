@@ -1,9 +1,10 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import First from '../assets/img1.jpeg'
-import Second from '../assets/img2.jpeg'
-import Third from '../assets/img4.jpeg'
+import First from '../assets/img4.jpeg'
+import Second from '../assets/img6.jpeg'
+import Third from '../assets/img7.jpeg'
+import Forty from '../assets/img8.jpeg'
 
 const responsive = {
   desktop: {
@@ -25,7 +26,7 @@ const responsive = {
 
 const Rent = () => {
   return (
-    <div className="text-white md:h-[130vh] sm:h-[105vh] h-[100vh] mx-auto text-center flex flex-col align-center bg-[#FF7D3C]">
+    <div className="text-white md:h-[130vh] sm:h-[105vh] h-[100vh] mx-auto text-center flex flex-col align-center items-center bg-[#FF7D3C]">
       <h3 className=" py-20 font-bold text-5xl">Nossos Serviços</h3>
       <div className="px-[5%] w-screen text-left">
         <div className="flex flex-row items-center font-bold py-5 text-4xl"><i class="fa fa-car icon-black" aria-hidden="true"></i>
@@ -40,7 +41,7 @@ const Rent = () => {
         </div>
       </div>
 
-      <Carousel className="w-[100%]"
+      <Carousel className="w-[90%]"
         swipeable={true}
         draggable={false}
         showDots={true}
@@ -50,15 +51,15 @@ const Rent = () => {
         autoPlaySpeed={1000}
         keyBoardControl={true}
         customTransition="all .5"
-        transitionDuration={500}
+        transitionDuration={100}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
       >
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={First} alt="/" />
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Second} alt="/" />
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={First} alt="/" />
-        <img className='h-[80%] max-w-[80%] rounded-md mx-auto' src={Third} alt="/" />
+        <img className='h-[100%] max-w-[80%] object-contain rounded-md mx-auto' src={First} alt="/" />
+        <img className='h-[80%] max-w-[80%] object-contain rounded-md mx-auto' src={Second} alt="/" />
+        <img className='h-[80%] max-w-[80%] object-contain rounded-md mx-auto' src={Third} alt="/" />
+        <img className='h-[80%] max-w-[80%] object-contain rounded-md mx-auto' src={Forty} alt="/" />
 
       </Carousel>
     </div>
