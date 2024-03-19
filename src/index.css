@@ -39,6 +39,9 @@ code {
 .whatsapp-icon {
   margin-top: 16px;
 }
+.icon-black{
+  color: #000;
+}
 
 /* for mobile */
 @media screen and (max-width: 767px) {

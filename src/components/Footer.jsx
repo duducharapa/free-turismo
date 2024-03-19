@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div className='text-white bg-[#212121] mx-auto py-16 px-4 flex flex-col justify-center items-center'>
       <div className="hidden text-2xl font-semibold md:flex flex-row w-[50vw] justify-around">
-        <p>Sobre nós</p>
         <p>Serviços</p>
         <p>Contato</p>
       </div>
